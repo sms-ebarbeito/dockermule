@@ -18,4 +18,6 @@ docker run -it --name Mule-Test -p:9001:8081 mule-test:4.3.0
 
 ## Usage
 
-Make a request using Postman or ARC to http://ip-docker:9001/hello
+Make a GET request using Postman or ARC to http://ip-docker:9001/hello
+
+should respond HELLO Max
